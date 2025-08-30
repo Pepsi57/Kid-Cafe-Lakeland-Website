@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+ .background-container {
+    background-image: url('KidCafe\ Mural.jpg'); /* Path to your background image */
+    background-size: cover; /* Make the image cover the entire container */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Make the background static */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    opacity: 0.5; /* Make the entire container 50% transparent */
+    width: 100%; /* Adjust the width of the container */
+    min-height: 500px; 
+    height: 100vh; /* Set the height to the full viewport height */
+    position: relative; /* Ensure content within behaves properly */
+} 
+
+
+
+
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: rgb(143, 205, 255);
+    
+}
+nav .menu-img{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+nav .logo{
+    width: 160px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #646464;
+}
+nav ul li a:hover{
+    color: rgb(255, 216, 243);
+  }
+button{
+    background: rgb(255, 216, 243);
+    height: 60px;
+    width: 120px;
+    border-radius: 40px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+/*button span{
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+} */
+.intro h1{
+    background: #c9c9c9;
+    font-size: 80px;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.intro h2{
+    background: #c9c9c9;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.intro p{
+    background: #c9c9c9;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.Mural{
+    /*display: inline-block;*/
+    height: 300px;
+    width: 600px;
+    margin-top: 7%;
+    margin-left: 8%;
+}
+.text-container1{
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 50%;
+    color: rgb(100, 100, 100);
+    font-size: 20px;
+
+}
+.text-container1 h2{
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 3%;
+    color: rgb(255, 216, 243);
+}
+.Toys{
+    height: 500px;
+    width: 600px;
+    margin-top: 7%;
+    margin-left: 8%;
+}
+.text-container2{
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 50%;
+    color: rgb(100, 100, 100);
+    font-size: 20px;
+}
+.text-container2 h2{
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 3%;
+    color: rgb(143, 205, 255);
+}
+.Building{
+    height: 300px;
+    width: 600px;
+    margin-top: 7%;
+    margin-left: 8%;
+}
+.text-container3{
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 50%;
+    color: rgb(100, 100, 100);;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+.text-container3 h2{
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 3%;
+    color: rgb(255, 216, 243);
+}
+.text-container4{
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 50%;
+    color: rgb(100, 100, 100);
+    margin-left: 8%;
+}
+.text-container4 h2{
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 3%;
+    color: rgb(0, 0, 0);
+}
+.text-container4 h3{
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 2%;
+    color: rgb(143, 205, 255);
+}
+.text-container4 p{
+    max-width: 600px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    color: rgb(100, 100, 100);
+    font-size: 20px;
+}
+.text-container5{
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 50%;
+    color: rgb(100, 100, 100);;
+    margin-bottom: 5%;
+}
+.text-container5 h2{
+    margin-bottom: 3%;
+    font-size: 60px;
+    font-weight: 300;
+    color: rgb(255, 216, 243);
+}
+.text-container5 p{
+    max-width: 600px;
+    margin-top: 2%;
+    color: rgb(100, 100, 100);
+    margin-bottom: 3%;
+    font-size: 20px;
+}
+.text-container5 ul{
+    font-size: 20px;
+}
+.color{
+    color:rgb(143, 205, 255);
+    font-weight: bold;
+}
+.text-container6{
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 50%;
+    color: rgb(100, 100, 100);
+    margin-left: 8%;
+}
+.text-container6 h2{
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 3%;
+    color: rgb(143, 205, 255);
+}
+.text-container6 p{
+    max-width: 600px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    color: rgb(100, 100, 100);
+    font-size: 20px;
+}
+.text-container6{
+    font-size: 20px;
+}
+.text-container7{
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 50%;
+    color: rgb(100, 100, 100);;
+    margin-bottom: 5%;
+}
+.text-container7 h2{
+    margin-bottom: 3%;
+    font-size: 60px;
+    font-weight: 300;
+    color: rgb(255, 216, 243);
+}
+.text-container7 p{
+    max-width: 600px;
+    margin-top: 2%;
+    color: rgb(100, 100, 100);
+    margin-bottom: 3%;
+    font-size: 20px;
+}
+.text-container7 button{
+    background: rgb(143, 205, 255);;
+    height: 60px;
+    width: 120px;
+    border-radius: 40px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column; 
+    justify-content: center;
+    padding: 20px 8%;
+    background-color: rgb(255, 216, 243);
+}
+footer i {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #4267B2; /* Example color for Facebook blue */
+}
